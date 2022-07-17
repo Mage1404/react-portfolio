@@ -1,8 +1,10 @@
 # React-Portfolio
-
 https://mage1404.github.io/react-portfolio/
 
-## Description
+## Description 
+This is a portfolio of myself built by react
+![K%~@A8N(I~V6Z9O}1CSNABG](https://user-images.githubusercontent.com/99444229/179425563-c1b8647a-d3d5-42c6-9976-c3d1f36a7979.png)
+
 
 This is a portfolio of myself built by react
 ![K%~@A8N(I~V6Z9O}1CSNABG](https://user-images.githubusercontent.com/99444229/179425563-c1b8647a-d3d5-42c6-9976-c3d1f36a7979.png)
@@ -17,13 +19,14 @@ This is a portfolio of myself built by react
 - [Questions](#Contact-Me)
 
 <a name="Installation"></a>
+## Installation 
+Download from Github
 
 ## Installation
 
 Download from Github
 
 <a name="Usage"></a>
-
 ## Usage
 
 GIVEN a single-page application portfolio for a web developer
