@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import Nav from "./components/Nav";
 import Menu from "./components/Menu";
+import Contact from "./components/Contacts";
 
 function App() {
   const [categories] = useState([
@@ -11,12 +12,11 @@ function App() {
         "My name is Luyan Zhang, I am a graduate from University of Toronto in honours Bachelor of Art with major program in media studies and minor program in economics for management studies. I have completed 2-year studies in Computer Science program during university, and I am familiar with python and java programming languages.",
     },
     { name: "Portfolio", description: "My projects" },
-    { name: "Contacts", description: "" },
     { name: "Resume", description: "" },
   ]);
 
   const blank = "_blank";
-
+  const [contactSelected, setContactSelected] = useState(false);
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
   return (
     <div>
@@ -24,9 +24,17 @@ function App() {
         categories={categories}
         setCurrentCategory={setCurrentCategory}
         currentCategory={currentCategory}
+        contactSelected={contactSelected}
+        setContactSelected={setContactSelected}
       ></Nav>
       <main class="text-center">
-        <Menu currentCategory={currentCategory}></Menu>
+        {!contactSelected ? (
+          <>
+            <Menu currentCategory={currentCategory}></Menu>
+          </>
+        ) : (
+          <Contact></Contact>
+        )}
       </main>
       <footer class="text-center">
         <a class="mr-5" href="https://github.com/Mage1404" target={blank}>
