@@ -53,7 +53,7 @@ function App() {
         >
           <i class="fa fa-facebook"></i>
         </a>
-        <p>Made by Luyan Zhang</p>
+        <p>By Luyan Zhang</p>
         &copy; 2022
       </footer>
       <link
