@@ -42,9 +42,16 @@ function App() {
         </a>
         <a
           href="https://www.linkedin.com/in/luyan-zhang-327495211/"
+          class="mr-5"
           target={blank}
         >
           <i class="fa fa-linkedin"></i>
+        </a>
+        <a
+          href="https://www.facebook.com/profile.php?id=100004302903575"
+          target={blank}
+        >
+          <i class="fa fa-facebook"></i>
         </a>
         <p>Made by Luyan Zhang</p>
         &copy; 2022
