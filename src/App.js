@@ -9,7 +9,7 @@ function App() {
     {
       name: "About me",
       description:
-        "My name is Luyan Zhang, I am a graduate from University of Toronto in honours Bachelor of Art with major program in media studies and minor program in economics for management studies. I have completed 2-year studies in Computer Science program during university, and I am familiar with python and java programming languages.",
+        "My name is Luyan Zhang, I am a graduate from University of Toronto in honours Bachelor of Art with major program in media studies and minor program in economics for management studies. This year, I completed a Bootcamp Program from UofT - Full-Stack Web Development, with 3.7 CGPA. I was mainly engaged in video game and eSports field during last 4 years and I am looking forward to changing my career path, now I am ready to become a web developer.",
     },
     { name: "Portfolio", description: "My projects" },
     { name: "Resume", description: "" },

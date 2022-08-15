@@ -22,7 +22,7 @@ const List = ({ category }) => {
     },
     {
       name: "Weather Tracker",
-      sub: "HTML/CSS/JavaScript/API",
+      sub: "HTML/CSS/JavaScript/Bootstrap/API",
       category: "Portfolio",
       description: "Project 3",
       href: "https://mage1404.github.io/Weather-checker/",
@@ -31,7 +31,7 @@ const List = ({ category }) => {
     },
     {
       name: "Calender Manager",
-      sub: "HTML/CSS/JavaScript/API",
+      sub: "HTML/CSS/JavaScript/Bootstrap",
       category: "Portfolio",
       description: "Project 4",
       href: "https://mage1404.github.io/calender-pro",
@@ -40,7 +40,7 @@ const List = ({ category }) => {
     },
     {
       name: "run-buddy",
-      sub: "HTML/CSS",
+      sub: "HTML/CSS/JavaScript",
       category: "Portfolio",
       description: "Project 5",
       href: "https://mage1404.github.io/run-buddy",
@@ -49,7 +49,7 @@ const List = ({ category }) => {
     },
     {
       name: "Drinkaholics",
-      sub: "HTML/CSS/JavaScript",
+      sub: "HTML/CSS/JavaScript/API",
       category: "Portfolio",
       description: "Project 6",
       href: "https://drinkaholics.github.io/Drinkaholics",
