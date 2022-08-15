@@ -3,23 +3,26 @@ import React, { useState } from "react";
 const List = ({ category }) => {
   const [selection] = useState([
     {
-      name: "Drinkaholics",
+      name: "ClubQ",
+      sub: "HTML/CSS/JavaScript/Node/SQL/Express/GraphQL/React",
       category: "Portfolio",
       description: "Project 1",
-      href: "https://drinkaholics.github.io/Drinkaholics",
-      github: "https://github.com/Drinkaholics/Drinkaholics",
+      href: "https://pacific-beyond-43744.herokuapp.com/",
+      github: "https://github.com/Project3-Team2/ClubQ",
       target: "_blank",
     },
     {
-      name: "run-buddy",
+      name: "Budget Tracker",
+      sub: "HTML/CSS/JavaScript/Node.js/Express.js/JQuery/Bootstrap",
       category: "Portfolio",
       description: "Project 2",
-      href: "https://mage1404.github.io/run-buddy",
-      github: "https://github.com/Mage1404/run-buddy",
+      href: "https://luyan-budget-tracker.herokuapp.com",
+      github: "https://github.com/Mage1404/Budget-Tracker",
       target: "_blank",
     },
     {
       name: "Weather Tracker",
+      sub: "HTML/CSS/JavaScript/API",
       category: "Portfolio",
       description: "Project 3",
       href: "https://mage1404.github.io/Weather-checker/",
@@ -28,6 +31,7 @@ const List = ({ category }) => {
     },
     {
       name: "Calender Manager",
+      sub: "HTML/CSS/JavaScript/API",
       category: "Portfolio",
       description: "Project 4",
       href: "https://mage1404.github.io/calender-pro",
@@ -35,19 +39,21 @@ const List = ({ category }) => {
       target: "_blank",
     },
     {
-      name: "Employee Tracker",
+      name: "run-buddy",
+      sub: "HTML/CSS",
       category: "Portfolio",
       description: "Project 5",
-      href: "https://github.com/Mage1404/Employee-Tracker",
-      github: "https://github.com/Mage1404/Employee-Tracker",
+      href: "https://mage1404.github.io/run-buddy",
+      github: "https://github.com/Mage1404/run-buddy",
       target: "_blank",
     },
     {
-      name: "Budget Tracker",
+      name: "Drinkaholics",
+      sub: "HTML/CSS/JavaScript",
       category: "Portfolio",
       description: "Project 6",
-      href: "https://luyan-budget-tracker.herokuapp.com",
-      github: "https://github.com/Mage1404/Budget-Tracker",
+      href: "https://drinkaholics.github.io/Drinkaholics",
+      github: "https://github.com/Drinkaholics/Drinkaholics",
       target: "_blank",
     },
   ]);
@@ -63,7 +69,7 @@ const List = ({ category }) => {
         {currentSelection.map((image, i) => (
           <div class="vstack">
             <a href = {image.github} target={image.target}><i class="fa fa-github">{image.name}</i></a>
-            <br></br>
+            <p>{image.sub}</p>
             <a href={image.href} target={image.target}>
               <img
                 src={require(`../../assets/Large/${category}/${i}.png`)}

@@ -14,9 +14,11 @@ function ContactForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (!errorMessage) {
-      setFormState({ [e.target.name]: e.target.value });
-      console.log("Form", formState);
+    try {
+      window.alert("feedback submitted");
+      return;
+    } catch (e) {
+      console.error(e);
     }
   };
 
@@ -42,11 +44,8 @@ function ContactForm() {
       <h1 data-testid="h1tag">Contact me</h1>
       <br></br>
       <br></br>
-      <form
-        id="contact-form"
-        onSubmit={handleSubmit}
-      >
-        <div class = "mb-1">
+      <form id="contact-form" onSubmit={handleSubmit}>
+        <div class="mb-1">
           <label htmlFor="name">Name:</label>
           <input
             type="text"
@@ -55,7 +54,7 @@ function ContactForm() {
             onBlur={handleChange}
           />
         </div>
-        <div class = "mb-1">
+        <div class="mb-1">
           <label htmlFor="email">Email address:</label>
           <input
             type="email"
@@ -64,7 +63,7 @@ function ContactForm() {
             onBlur={handleChange}
           />
         </div>
-        <div class = "mb-1">
+        <div class="mb-1">
           <label htmlFor="message">Message:</label>
           <textarea
             name="message"
