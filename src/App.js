@@ -3,6 +3,7 @@ import "./App.css";
 import Nav from "./components/Nav";
 import Menu from "./components/Menu";
 import Contact from "./components/Contacts";
+import Footer from "./components/Footer";
 
 function App() {
   const [categories] = useState([
@@ -14,8 +15,7 @@ function App() {
     { name: "Portfolio", description: "My projects" },
     { name: "Resume", description: "" },
   ]);
-
-  const blank = "_blank";
+  
   const [contactSelected, setContactSelected] = useState(false);
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
   return (
@@ -36,26 +36,7 @@ function App() {
           <Contact></Contact>
         )}
       </main>
-      <footer class="text-center">
-        <a class="mr-5" href="https://github.com/Mage1404" target={blank}>
-          <i class="fa fa-github"></i>
-        </a>
-        <a
-          href="https://www.linkedin.com/in/luyan-zhang-327495211/"
-          class="mr-5"
-          target={blank}
-        >
-          <i class="fa fa-linkedin"></i>
-        </a>
-        <a
-          href="https://www.facebook.com/profile.php?id=100004302903575"
-          target={blank}
-        >
-          <i class="fa fa-facebook"></i>
-        </a>
-        <p>By Luyan Zhang</p>
-        &copy; 2022
-      </footer>
+      <Footer></Footer>
       <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"

@@ -17,11 +17,11 @@ const List = ({ category }) => {
       target: "_blank",
     },
     {
-        name: "Click to Download",
-        category: "Resume",
-        description: "My school",
-        href: "https://utoronto-my.sharepoint.com/:b:/g/personal/luyan_zhang_mail_utoronto_ca/ESpjnsOCOxBAnbc1y_O0wdUBsuG4PbYbZAmeCAJaqkjS4g?e=ymosdx",
-        target: "_blank",
+      name: "Click to Download",
+      category: "Resume",
+      description: "My school",
+      href: "https://utoronto-my.sharepoint.com/:b:/g/personal/luyan_zhang_mail_utoronto_ca/ETQPXTpy2C5JiSbWh_a19AkBbaWzCz2HQg4B4Mfl0L50aw?e=Mjcamo",
+      target: "_blank",
     },
   ]);
 
