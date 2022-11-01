@@ -20,7 +20,7 @@ const List = ({ category }) => {
       name: "Click to Download",
       category: "Resume",
       description: "My school",
-      href: "https://utoronto-my.sharepoint.com/:b:/g/personal/luyan_zhang_mail_utoronto_ca/ETQPXTpy2C5JiSbWh_a19AkBbaWzCz2HQg4B4Mfl0L50aw?e=Mjcamo",
+      href: "https://drive.google.com/file/d/1trn39_KkdnluAcW2dBy9E5H3PNLZQ_Iy/view?usp=sharing",
       target: "_blank",
     },
   ]);
